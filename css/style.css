@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin:0;
+    padding:0;
+}
+header {
+display: block;
+width: 100%;
+position:fixed;
+background-color: transparent;
+padding:5px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 35px;
+text-shadow: 0em 1em 0.1em black,
+0em 2em 0.1em black,
+0em 3em 0.1em black,
+0em 4em 0.1em black,
+0em 5em 0.1em black,
+0em 6em 0.1em black,
+0em 7em 0.1em black;
+text-align: right; 
+}
+.surface {
+    background-color:white;
+    height: 2500px;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+}
+.friends {
+    background-color:#F2D8F9;
+    height: 500px;
+    width: 100%; 
+}
+.december {
+    background-color:#E1B9EF;
+    height: 300px;
+    width: 100%;
+}
+.fall {
+    background-color:#FF8DC6;
+    height: 300px;
+    width: 100%;
+}
+.lost {
+    background-color:#EF5FA7;
+    height: 350px;
+    width: 100%;
+}
+.intense {
+    background-color:#00A2FF;
+    height: 500px;
+    width: 100%;
+}
+.deepIntensity {
+    background-color:#0076BA;
+    height: 500px;
+    width: 100%;
+}
+.doubt {
+    background-color:#D6D5D5;
+    height: 100px;
+    width: 100%;
+}
+.sad {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.berlin {
+    background-color:#004D7F;
+    height: 400px;
+    width: 100%;
+}
+.mad {
+    background-color:#991991;
+    height: 300px;
+    width: 100%;
+}
+.love {
+    background-color:#99195E;
+    height: 250px;
+    width: 100%;
+}
+.deep {
+background-color: black;
+height: 570px;
+width: 100%;
+}
