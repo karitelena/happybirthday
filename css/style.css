@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box
 }
@@ -10,7 +11,7 @@ display: block;
 width: 100%;
 position:fixed;
 background-color: transparent;
-padding:5px;
+padding:20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 35px;
 text-shadow: 0em 1em 0.1em black,
@@ -24,7 +25,7 @@ text-align: right;
 }
 .surface {
     background-color:white;
-    height: 2500px;
+    height: 2800px;
     width: 100%;
     padding: 30px;
     justify-content: center;
@@ -88,4 +89,11 @@ text-align: right;
 background-color: black;
 height: 570px;
 width: 100%;
+background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
+background-size: cover;
+}
+@media (max-width:355px) {
+    .surface {
+        height: 2500px;
+    }
 }
