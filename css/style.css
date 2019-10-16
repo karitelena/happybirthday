@@ -7,38 +7,57 @@ body {
     padding:0;
 }
 header {
-display: block;
-width: 100%;
-position:fixed;
-background-color: transparent;
-padding:20px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 35px;
-text-shadow: 0em 1em 0.1em black,
-0em 2em 0.1em black,
-0em 3em 0.1em black;
-text-align: right; 
+    display: block;
+    width: 100%;
+    position:fixed;
+    background-color: transparent;
+    padding:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-shadow: 0em 1em 0.1em black,
+    0em 2em 0.1em black,
+    0em 3em 0.1em black;
+    text-align: right; 
+    z-index: 2;
 }
 .surface {
     background-color:white;
-<<<<<<< HEAD
-    height: 4200px;
-=======
-    height: 2800px;
->>>>>>> 20b8e56d30068a7d35d00bb6c40cc081bfea27c6
+    height: auto;
     width: 100%;
     padding: 30px;
     justify-content: center;
 }
 .friends {
     background-color:#F2D8F9;
-    height: 500px;
-    width: 100%; 
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    justify-content: center 
 }
 .december {
     background-color:#E1B9EF;
     height: 300px;
     width: 100%;
+    display: flex;
+}
+.december>div>img:first-child {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 5px;
+    border: black dashed 3px;
+}
+.december>div>img:last-child {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 95px;
+    padding: 5px;
+    border: black dashed 3px;
+    z-index: 1;
 }
 .fall {
     background-color:#FF8DC6;
@@ -64,6 +83,9 @@ text-align: right;
     background-color:#0076BA;
     height: 500px;
     width: 100%;
+}
+.carousel-inner {
+    margin-top:5px;
 }
 .doubt {
     background-color:#D6D5D5;
@@ -97,7 +119,7 @@ width: 100%;
 background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
 background-size: cover;
 }
-<<<<<<< HEAD
+
 @media (min-width:355px) {
     header {
         text-shadow: 0em 1em 0.1em black,
@@ -106,7 +128,7 @@ background-size: cover;
         0em 4em 0.1em black;
     }
     .surface {
-        height: 2500px;
+        height: 3500px;
     }
 }
 @media (min-width:400px) {
@@ -120,10 +142,4 @@ background-size: cover;
     .surface {
         height: 2100px;
     }
-=======
-@media (max-width:355px) {
-    .surface {
-        height: 2500px;
-    }
->>>>>>> 20b8e56d30068a7d35d00bb6c40cc081bfea27c6
 }
