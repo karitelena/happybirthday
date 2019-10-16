@@ -21,7 +21,11 @@ text-align: right;
 }
 .surface {
     background-color:white;
+<<<<<<< HEAD
     height: 4200px;
+=======
+    height: 2800px;
+>>>>>>> 20b8e56d30068a7d35d00bb6c40cc081bfea27c6
     width: 100%;
     padding: 30px;
     justify-content: center;
@@ -93,6 +97,7 @@ width: 100%;
 background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
 background-size: cover;
 }
+<<<<<<< HEAD
 @media (min-width:355px) {
     header {
         text-shadow: 0em 1em 0.1em black,
@@ -115,4 +120,10 @@ background-size: cover;
     .surface {
         height: 2100px;
     }
+=======
+@media (max-width:355px) {
+    .surface {
+        height: 2500px;
+    }
+>>>>>>> 20b8e56d30068a7d35d00bb6c40cc081bfea27c6
 }
