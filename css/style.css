@@ -26,13 +26,23 @@ header {
     width: 100%;
     padding: 30px;
     justify-content: center;
+    z-index: 0;
 }
+/* 
+.surface>div>p {
+    transform: rotate(350deg);
+    z-index: 1;
+
+} 
+ */
+.surface>div>p:hover {
+    color:pink;
+}  
 .friends {
     background-color:#F2D8F9;
     width: 100%;
     height: auto;
     padding: 30px;
-    justify-content: center 
 }
 .december {
     background-color:#E1B9EF;
@@ -47,7 +57,7 @@ header {
     margin-left: 50px;
     margin-top: 5px;
     padding: 5px;
-    border: black dashed 3px;
+    border: white dashed 15px;
 }
 .december>div>img:last-child {
     position: relative;
@@ -56,7 +66,7 @@ header {
     margin-left: 80px;
     margin-top: 95px;
     padding: 5px;
-    border: black dashed 3px;
+    border: white dashed 15px;
     z-index: 1;
 }
 .fall {
@@ -74,10 +84,17 @@ header {
     height: 350px;
     width: 100%;
 }
+.carita {
+    align-content: flex-end;
+}
 .intense {
     background-color:#00A2FF;
     height: 500px;
     width: 100%;
+}
+.intense img {
+    z-index: 0;
+    position: absolute;
 }
 .deepIntensity {
     background-color:#0076BA;
