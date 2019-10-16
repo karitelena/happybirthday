@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box
 }
@@ -10,21 +11,17 @@ display: block;
 width: 100%;
 position:fixed;
 background-color: transparent;
-padding:5px;
+padding:20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-size: 35px;
 text-shadow: 0em 1em 0.1em black,
 0em 2em 0.1em black,
-0em 3em 0.1em black,
-0em 4em 0.1em black,
-0em 5em 0.1em black,
-0em 6em 0.1em black,
-0em 7em 0.1em black;
+0em 3em 0.1em black;
 text-align: right; 
 }
 .surface {
     background-color:white;
-    height: 2500px;
+    height: 4200px;
     width: 100%;
     padding: 30px;
     justify-content: center;
@@ -43,6 +40,11 @@ text-align: right;
     background-color:#FF8DC6;
     height: 300px;
     width: 100%;
+}
+.fall iframe {
+    margin-top:50px;
+    margin-left:10px;
+    padding: 10px;
 }
 .lost {
     background-color:#EF5FA7;
@@ -88,4 +90,29 @@ text-align: right;
 background-color: black;
 height: 570px;
 width: 100%;
+background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
+background-size: cover;
+}
+@media (min-width:355px) {
+    header {
+        text-shadow: 0em 1em 0.1em black,
+        0em 2em 0.1em black,
+        0em 3em 0.1em black,
+        0em 4em 0.1em black;
+    }
+    .surface {
+        height: 2500px;
+    }
+}
+@media (min-width:400px) {
+    header {
+        text-shadow: 0em 1em 0.1em black,
+        0em 2em 0.1em black,
+        0em 3em 0.1em black,
+        0em 4em 0.1em black,
+        0em 5em 0.1em black;
+    }
+    .surface {
+        height: 2100px;
+    }
 }
