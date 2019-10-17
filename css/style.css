@@ -116,6 +116,7 @@ header {
 }
 .berlin {
     background-color:#004D7F;
+    background-image: url(https://pa1.narvii.com/6646/3ed476cf57c8c0a39e21c5006c3810f4b6cddb8c_hq.gif);
     height: 400px;
     width: 100%;
 }
@@ -133,7 +134,7 @@ header {
 color: white;
 font-family: fantasy;
 background-color: black;
-height: 570px;
+height: auto;
 width: 100%;
 background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
 background-size: cover;
@@ -142,6 +143,8 @@ z-index: 1;
 .real {
     padding: 50%;
     z-index: 0;
+    text-shadow: 15px 15px 0px white,
+     -15px -15px 0px white;
 }
 
 @media (min-width:355px) {
