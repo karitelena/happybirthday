@@ -28,6 +28,9 @@ header {
     justify-content: center;
     z-index: 0;
 }
+.surface h3 {
+    text-decoration-style: wavy;
+}
 /* 
 .surface>div>p {
     transform: rotate(350deg);
@@ -46,7 +49,7 @@ header {
 }
 .december {
     background-color:#E1B9EF;
-    height: 300px;
+    height: auto;
     width: 100%;
     display: flex;
 }
@@ -57,7 +60,6 @@ header {
     margin-left: 50px;
     margin-top: 5px;
     padding: 5px;
-    border: white dashed 15px;
 }
 .december>div>img:last-child {
     position: relative;
@@ -66,7 +68,6 @@ header {
     margin-left: 80px;
     margin-top: 95px;
     padding: 5px;
-    border: white dashed 15px;
     z-index: 1;
 }
 .fall {
@@ -82,15 +83,15 @@ header {
 .lost {
     background-color:#EF5FA7;
     height: auto;
-    width: 100%;
 }
 .carita {
     align-content: flex-end;
 }
 .intense {
     background-color:#00A2FF;
-    height: 500px;
+    height: auto;
     width: 100%;
+    display: block;
 }
 .intense img {
     z-index: 0;
@@ -98,7 +99,7 @@ header {
 }
 .deepIntensity {
     background-color:#0076BA;
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 .carousel-inner {
@@ -111,22 +112,27 @@ header {
 }
 .sad {
     background-color: black;
-    height: 100px;
+    height: auto;
     width: 100%;
+    color:grey;
+}
+.sad p:hover {
+    color: white;
+    cursor: pointer;
 }
 .berlin {
     background-color:#004D7F;
-    background-image: url(https://pa1.narvii.com/6646/3ed476cf57c8c0a39e21c5006c3810f4b6cddb8c_hq.gif);
-    height: 400px;
+    height: auto;
     width: 100%;
 }
 .mad {
-    background-color:#991991;
+    background-color:#660f60;
+    background-image: url(https://webstockreview.net/images/clipart-rain-gif-transparent.gif);
     height: 100px;
     width: 100%;
 }
 .love {
-    background-color:#99195E;
+    background-color:rgb(63, 9, 38);
     height: 100px;
     width: 100%;
 }
@@ -136,7 +142,7 @@ font-family: fantasy;
 background-color: black;
 height: auto;
 width: 100%;
-background-image: url(https://media1.giphy.com/media/26uf8tQf6WVQPxP9u/giphy.gif);
+background-image: url(https://media2.giphy.com/media/13USt1URETlUFG/source.gif);
 background-size: cover;
 z-index: 1;
 }
@@ -158,6 +164,37 @@ z-index: 1;
         height: 3500px;
     }
 }
+@media (min-width:380px) {
+    header {
+        text-shadow: 0em 1em 0.1em black,
+        0em 2em 0.1em black,
+        0em 3em 0.1em black,
+        0em 4em 0.1em black,
+        0em 5em 0.1em black,
+        0em 6em 0.1em black,
+        0em 7em 0.1em black;
+        
+    }
+    .surface {
+        height: 2100px;
+    }
+    .december>div>img:first-child {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        margin-left: 60px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .december>div>img:last-child {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin-left: 90px;
+        margin-top: 95px;
+        padding: 5px;
+        z-index: 1;
+}
 @media (min-width:400px) {
     header {
         text-shadow: 0em 1em 0.1em black,
@@ -173,4 +210,99 @@ z-index: 1;
     .surface {
         height: 2100px;
     }
+    .december>div>img:first-child {
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        margin-left: 70px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .december>div>img:last-child {
+        position: relative;
+        width: 500px;
+        height: 500px;
+        margin-left: 98px;
+        margin-top: 200px;
+        padding: 5px;
+        z-index: 1;
+}
+@media (min-width:890px) {
+    header {
+        text-shadow: 0em 1em 0.1em black,
+        0em 2em 0.1em black,
+        0em 3em 0.1em black,
+        0em 4em 0.1em black,
+        0em 5em 0.1em black,
+        0em 6em 0.1em black,
+        0em 7em 0.1em black,
+        0em 8em 0.1em black,
+        0em 9em 0.1em black,
+        0em 10em 0.1em black,
+        0em 11em 0.1em black,
+        0em 12em 0.1em black,
+        0em 13em 0.1em black,
+        0em 14em 0.1em black,
+        0em 15em 0.1em black;
+    }
+    .surface {
+        height: auto;
+    }
+    .december>div>img:first-child {
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        margin-left: 200px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .december>div>img:last-child {
+        position: relative;
+        width: 600px;
+        height: 600px;
+        margin-left: 510px;
+        margin-top: 95px;
+        padding: 5px;
+        z-index: 1;
+}
+@media (min-width:1080px) {
+    header {
+        text-shadow: 0em 1em 0.1em black,
+        0em 2em 0.1em black,
+        0em 3em 0.1em black,
+        0em 4em 0.1em black,
+        0em 5em 0.1em black,
+        0em 6em 0.1em black,
+        0em 7em 0.1em black,
+        0em 8em 0.1em black,
+        0em 9em 0.1em black,
+        0em 10em 0.1em black,
+        0em 11em 0.1em black,
+        0em 12em 0.1em black,
+        0em 13em 0.1em black,
+        0em 14em 0.1em black,
+        0em 15em 0.1em black,
+        0em 16em 0.1em black,
+        0em 17em 0.1em black,
+        0em 18em 0.1em black,
+        0em 19em 0.1em black,
+        0em 20em 0.1em black;
+    }
+    .surface {
+        height: auto;
+    }
+    .imessage {
+        display:inline-flex;
+    }
+    .december>div>img:first-child {
+        width: 600px;
+        height: 600px;
+        margin-left:100px;
+        padding: 5px;
+    }
+    .december>div>img:last-child {
+        width: 600px;
+        height: 600px;
+        padding: 5px;
+        margin-left: 800px;
 }
