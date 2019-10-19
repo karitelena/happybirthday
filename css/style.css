@@ -7,7 +7,6 @@ body {
     padding:0;
 }
 header {
-    display: block;
     width: 100%;
     position:fixed;
     background-color: transparent;
@@ -22,29 +21,26 @@ header {
 }
 .surface {
     background-color:white;
+    padding: 30px;
     height: auto;
     width: 100%;
-    padding: 30px;
-    justify-content: center;
-    z-index: 0;
+    position: relative;
 }
 .surface h3 {
     text-decoration-style: wavy;
 }
-/* 
-.surface>div>p {
-    transform: rotate(350deg);
-    z-index: 1;
-
-} 
- */
 .surface>div>p:hover {
     color:pink;
+}
+.resposta {
+    height: 100%;
+    width: 100%;
+    border-block: block;
 }  
 .friends {
     background-color:#F2D8F9;
-    width: 100%;
     height: auto;
+    width: 100%;
     padding: 30px;
 }
 .december {
@@ -95,7 +91,6 @@ header {
 }
 .intense img {
     z-index: 0;
-    position: absolute;
 }
 .deepIntensity {
     background-color:#0076BA;
@@ -115,6 +110,7 @@ header {
     height: auto;
     width: 100%;
     color:grey;
+    padding: 20px;
 }
 .sad p:hover {
     color: white;
